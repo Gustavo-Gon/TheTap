@@ -15,7 +15,7 @@ struct SplashView: View {
                 .font(.largeTitle)
                 .bold()
                 .foregroundColor(.orange)
-            // Need to change color
+            // Need to change color of thext to gradiant 
                 
         }
         .padding()
