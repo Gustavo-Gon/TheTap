@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9D9C7B52BA1869700F10D1A /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9C7B42BA1869700F10D1A /* NavView.swift */; };
+		E9D9C7B72BA18A0200F10D1A /* BottomMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9C7B62BA18A0200F10D1A /* BottomMenuView.swift */; };
+		E9D9C7B92BA18FA600F10D1A /* FriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9C7B82BA18FA600F10D1A /* FriendView.swift */; };
+		E9D9C7BB2BA1909200F10D1A /* NewFizzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9C7BA2BA1909200F10D1A /* NewFizzView.swift */; };
+		E9D9C7BD2BA1944100F10D1A /* PastTastesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9C7BC2BA1944100F10D1A /* PastTastesView.swift */; };
 		E9E15FBC2BA0335B007E8DC2 /* TheTapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E15FBB2BA0335B007E8DC2 /* TheTapApp.swift */; };
 		E9E15FBE2BA0335B007E8DC2 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E15FBD2BA0335B007E8DC2 /* SplashView.swift */; };
 		E9E15FC02BA0335C007E8DC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9E15FBF2BA0335C007E8DC2 /* Assets.xcassets */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E9D9C7B42BA1869700F10D1A /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		E9D9C7B62BA18A0200F10D1A /* BottomMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomMenuView.swift; sourceTree = "<group>"; };
+		E9D9C7B82BA18FA600F10D1A /* FriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendView.swift; sourceTree = "<group>"; };
+		E9D9C7BA2BA1909200F10D1A /* NewFizzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFizzView.swift; sourceTree = "<group>"; };
+		E9D9C7BC2BA1944100F10D1A /* PastTastesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastTastesView.swift; sourceTree = "<group>"; };
 		E9E15FB82BA0335B007E8DC2 /* TheTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E15FBB2BA0335B007E8DC2 /* TheTapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTapApp.swift; sourceTree = "<group>"; };
 		E9E15FBD2BA0335B007E8DC2 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -101,6 +111,11 @@
 				E9E15FBF2BA0335C007E8DC2 /* Assets.xcassets */,
 				E9E15FC12BA0335C007E8DC2 /* Preview Content */,
 				E9E15FE52BA03D4D007E8DC2 /* HomeView.swift */,
+				E9D9C7B42BA1869700F10D1A /* NavView.swift */,
+				E9D9C7B62BA18A0200F10D1A /* BottomMenuView.swift */,
+				E9D9C7B82BA18FA600F10D1A /* FriendView.swift */,
+				E9D9C7BA2BA1909200F10D1A /* NewFizzView.swift */,
+				E9D9C7BC2BA1944100F10D1A /* PastTastesView.swift */,
 			);
 			path = TheTap;
 			sourceTree = "<group>";
@@ -260,9 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D9C7B52BA1869700F10D1A /* NavView.swift in Sources */,
 				E9E15FE62BA03D4D007E8DC2 /* HomeView.swift in Sources */,
+				E9D9C7B72BA18A0200F10D1A /* BottomMenuView.swift in Sources */,
 				E9E15FBE2BA0335B007E8DC2 /* SplashView.swift in Sources */,
+				E9D9C7B92BA18FA600F10D1A /* FriendView.swift in Sources */,
 				E9E15FBC2BA0335B007E8DC2 /* TheTapApp.swift in Sources */,
+				E9D9C7BD2BA1944100F10D1A /* PastTastesView.swift in Sources */,
+				E9D9C7BB2BA1909200F10D1A /* NewFizzView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
